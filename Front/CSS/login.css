@@ -1,6 +1,7 @@
 :root{
-    --bg-color: rgb(17, 17, 31);
-    --light-color : rgb(213, 251, 255);
+    --bg-color: rgb(12, 12, 22);
+    --mid-color: rgb(20, 20, 29);
+    --light-color : rgb(217, 236, 238);
 }
 
 *{
@@ -142,6 +143,11 @@ button.cadastro {
 button.submit:hover {
     background-color: var(--bg-color);
     color: var(--light-color);
+}
+
+button.cadastro:hover {
+    background-color: var(--light-color);
+    color: var(--bg-color);
 }
 
 /* ----  Responsiveness   ----  */
